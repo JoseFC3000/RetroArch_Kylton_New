@@ -963,8 +963,8 @@ static int action_right_replay_slot(unsigned type, const char *label,
    settings_t           *settings = config_get_ptr();
 
    settings->ints.replay_slot++;
-   if (settings->ints.replay_slot > 999)
-      settings->ints.replay_slot = -1;
+   if (settings->ints.replay_slot > 20)
+      settings->ints.replay_slot = 20;
 
    return 0;
 }
