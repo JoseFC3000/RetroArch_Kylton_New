@@ -3028,11 +3028,9 @@ bool video_shader_apply_shader(
             msg[++_len]            = ' ';
             if (preset_file)
             {
-               msg[++_len]         = '"';
                msg[++_len]         = '\0';
                _len               += strlcpy(msg + _len,
                      preset_file,    sizeof(msg) - _len);
-               msg[  _len]         = '"';
                msg[++_len]         = '\0';
             }
             else
