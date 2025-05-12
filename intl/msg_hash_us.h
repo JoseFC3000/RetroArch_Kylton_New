@@ -57,11 +57,11 @@ MSG_HASH(
 
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_CONTENT_SETTINGS,
-   "Quick Menu"
+   "Options"
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_CONTENT_SETTINGS,
-   "Quickly access all relevant in-game settings."
+   "Access to Options and State Slots"
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_CORE_LIST,
@@ -211,7 +211,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_QUIT_RETROARCH,
-   "Quit"
+   "Quit Game"
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_QUIT_RETROARCH,
@@ -219,7 +219,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_QUIT_RETROARCH_NOSAVE,
-   "Quit RetroArch application. Configuration save on exit is disabled."
+   "Quit and return to Games Collection"
    )
 MSG_HASH(
    MENU_ENUM_LABEL_HELP_QUIT_RETROARCH,
@@ -9206,15 +9206,15 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_RESUME_CONTENT,
-   "Resume the content and leave the Quick Menu."
+   "Resume the Game and leave this menu"
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_RESTART_CONTENT,
-   "Restart"
+   "Reset"
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_RESTART_CONTENT,
-   "Restart the content from the beginning."
+   "Restart the content from the beginning"
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_CLOSE_CONTENT,
@@ -9238,7 +9238,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_STATE_SLOT,
-   "Change the currently selected state slot."
+   "Change the current selected State Slot"
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_SAVE_STATE,
@@ -9246,7 +9246,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_SAVE_STATE,
-   "Save a state to the currently selected slot."
+   "Save a State to the selected Slot"
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_LOAD_STATE,
@@ -9254,7 +9254,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MENU_ENUM_SUBLABEL_LOAD_STATE,
-   "Load a saved state from the currently selected slot."
+   "Load a saved State from the selected Slot"
    )
 MSG_HASH(
    MENU_ENUM_LABEL_VALUE_UNDO_LOAD_STATE,
@@ -14564,11 +14564,11 @@ MSG_HASH(
    )
 MSG_HASH(
    MSG_DISK_CLOSED,
-   "Closed virtual disc tray."
+   "Closed virtual disc tray"
    )
 MSG_HASH(
    MSG_DISK_EJECTED,
-   "Ejected virtual disc tray."
+   "Ejected virtual disc tray"
    )
 MSG_HASH(
    MSG_DOWNLOADING,
@@ -14692,7 +14692,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MSG_FAILED_TO_LOAD_STATE,
-   "Failed to load state from"
+   "Failed to load State"
    )
 MSG_HASH(
    MSG_FAILED_TO_OPEN_LIBRETRO_CORE,
@@ -14928,7 +14928,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MSG_LOADED_STATE_FROM_SLOT,
-   "Loaded state from slot #%d."
+   "Loaded State from Slot #%d"
    )
 MSG_HASH(
    MSG_LOADED_STATE_FROM_SLOT_AUTO,
@@ -15132,7 +15132,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MSG_SAVED_STATE_TO_SLOT,
-   "Saved state to slot #%d."
+   "Saved State to Slot #%d"
    )
 MSG_HASH(
    MSG_SAVED_STATE_TO_SLOT_AUTO,
@@ -15168,7 +15168,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MSG_SHADER,
-   "Shader"
+   "Filter"
    )
 MSG_HASH(
    MSG_SHADER_PRESET_SAVED_SUCCESSFULLY,
@@ -15352,7 +15352,7 @@ MSG_HASH(
    )
 MSG_HASH(
    MSG_AUTOLOADING_SAVESTATE_SUCCEEDED,
-   "Auto-loading save state from \"%s\" succeeded."
+   "Auto-loading optimal State"
    )
 MSG_HASH(
    MSG_DEVICE_CONFIGURED_IN_PORT,
