@@ -820,7 +820,7 @@ static void task_load_handler(retro_task_t *task)
 not_found:
    {
       char msg[128];
-      snprintf(msg, sizeof(msg), "%s \"%s\".",
+      snprintf(msg, sizeof(msg),
             msg_hash_to_str(MSG_FAILED_TO_LOAD_STATE),
             path_basename(state->path));
       task_set_title(task, strdup(msg));
