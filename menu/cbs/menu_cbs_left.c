@@ -951,8 +951,8 @@ static int action_left_state_slot(unsigned type, const char *label,
    settings_t       *settings = config_get_ptr();
 
    settings->ints.state_slot--;
-   if (settings->ints.state_slot < -1)
-      settings->ints.state_slot = 999;
+   if (settings->ints.state_slot < 1)
+      settings->ints.state_slot = 1;
 
    if (menu_st->driver_ctx)
    {
