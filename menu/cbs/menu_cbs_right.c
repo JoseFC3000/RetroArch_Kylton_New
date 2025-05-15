@@ -942,8 +942,8 @@ static int action_right_state_slot(unsigned type, const char *label,
    settings_t       *settings = config_get_ptr();
 
    settings->ints.state_slot++;
-   if (settings->ints.state_slot > 999)
-      settings->ints.state_slot = -1;
+   if (settings->ints.state_slot > 20)
+      settings->ints.state_slot = 20;
 
    if (menu_st->driver_ctx)
    {
@@ -963,8 +963,8 @@ static int action_right_replay_slot(unsigned type, const char *label,
    settings_t           *settings = config_get_ptr();
 
    settings->ints.replay_slot++;
-   if (settings->ints.replay_slot > 20)
-      settings->ints.replay_slot = 20;
+   if (settings->ints.replay_slot > 999)
+      settings->ints.replay_slot = -1;
 
    return 0;
 }
